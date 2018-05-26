@@ -1,3 +1,0 @@
-# Disallow all robots from fetching all resources
-User-Agent: *
-Disallow: / 
