@@ -667,8 +667,38 @@ Click Submit button below on completion.</div>
 	</div>
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 	<script type="text/javascript">
+		const isRuRegex = new RegExp('/[А-Яа-яЁё]+');
+		const invalidPhoneRegex = new RegExp('/[a-zA-z@.\\/:]+');
+		const invalidNameRegex = new RegExp('/[^a-z -]+');
+		function isMatch(value, regex) {
+			return regex.test(value);
+		}
 		document.getElementById("form-contact-us").addEventListener("submit", function(e) {
 			if (document.getElementById("entry.192965970").value.length > 0) {
+				e.preventDefault();
+				return false;
+			}
+			if (isMatch(document.getElementById("entry.344865596").value, invalidNameRegex)) {
+				e.preventDefault();
+				return false;
+			}
+			if (isMatch(document.getElementById("entry.449256552").value, invalidNameRegex)) {
+				e.preventDefault();
+				return false;
+			}
+			if (isMatch(document.getElementById("entry.192965974").value, isRuRegex)) {
+				e.preventDefault();
+				return false;
+			}
+			if (document.getElementById("entry.106361264").value.endsWith(".ru")) {
+				e.preventDefault();
+				return false;
+			}
+			if (isMatch(document.getElementById("entry.535068971").value, invalidPhoneRegex)) {
+				e.preventDefault();
+				return false;
+			}
+			if (isMatch(document.getElementById("entry.846618783").value, invalidPhoneRegex)) {
 				e.preventDefault();
 				return false;
 			}
