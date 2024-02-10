@@ -166,24 +166,6 @@ blockquote {
   font-size: 30px;
   color: #cccccc;
 }
-#header-right {
-  padding: 0 0 0 10px;
-}
-#header-right table {
-  width: 1px;
-}
-#header-right td {
-  padding: 0;
-}
-#header-right table,
-#header-right .search,
-#header-right .wsite-search {
-  float: right;
-  clear: both;
-}
-#header-right a {
-  color: #ffffff;
-}
 #navigation {
   float: left;
   background-color: #e5e5e5;
@@ -226,20 +208,6 @@ blockquote {
   color: #af5211;
   text-decoration: none;
   font-weight: bold;
-}
-#header-right .phone-number .wsite-text {
-  display: block;
-  margin: 5px 0 5px 15px;
-  white-space: nowrap;
-  color: #ccc;
-  font-size: 13px;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Arial;
-}
-#header-right .wsite-social {
-  vertical-align: middle;
-  margin: 5px 0 5px 12px;
 }
 .wsite-social-item {
   width: 23px;
@@ -345,31 +313,6 @@ blockquote {
 }
 .wsite-social-youtube:active {
   background-position: -230px -46px;
-}
-#header-right .wsite-search {
-  width: 202px;
-  margin: 5px 0 5px 15px;
-}
-#header-right .wsite-search .wsite-search-input {
-  width: 126px;
-  height: 26px;
-  border: none;
-  padding: 0 7px 0 7px !important;
-  color: #010101;
-  font-size: 12px;
-  background: url(theme/input-bg.jpg?1527348198) no-repeat;
-}
-#header-right .wsite-search .wsite-search-button {
-  position: relative;
-  width: 62px;
-  height: 26px;
-  color: #010101;
-  font-size: 12px;
-  border: none;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-  background: url(theme/submit-bg.jpg?1527348198) no-repeat;
 }
 .short-header-page #banner {
   width: 960px;
@@ -486,8 +429,6 @@ blockquote {
 .splash-page #header {
   width: 560px;
   padding: 7px 20px 0 20px;
-}
-.splash-page #header-right {
 }
 .splash-page #banner {
   width: 600px;
