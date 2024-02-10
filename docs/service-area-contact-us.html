@@ -603,10 +603,6 @@ Click Submit button below on completion.</div>
 			return regex.test(value);
 		}
 		document.getElementById("form-contact-us").addEventListener("submit", function(e) {
-			if (document.getElementById("entry.192965970").value.length > 0) {
-				e.preventDefault();
-				return false;
-			}
 			// First name
 			if (isMatch(document.getElementById("entry.344865596").value, invalidNameRegex)) {
 				console.error('Invalid first name:', document.getElementById("entry.344865596").value);
@@ -627,7 +623,7 @@ Click Submit button below on completion.</div>
 			}
 			// Email Address
 			if (document.getElementById("entry.756495096").value.endsWith(".ru")) {
-				console.error('Invalid email address:', document.getElementById("entry.756495096").value;
+				console.error('Invalid email address:', document.getElementById("entry.756495096").value);
 				e.preventDefault();
 				return false;
 			}
