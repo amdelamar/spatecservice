@@ -553,7 +553,7 @@ var STYLE_PREFIX = 'wsite';
 				<label class="wsite-form-label" for="entry.931676546">Phone number <span class="form-required">*</span></label>
 				<div style="clear:both;"></div>
 				<div class="wsite-form-input-container wsite-form-left" style="margin-bottom:5px;">
-					<input aria-required="true" id="entry.931676546" class="wsite-form-input wsite-input" type="text" name="entry.931676546" placeholder="(123) 456-7890" />
+					<input aria-required="true" id="entry.931676546" class="wsite-form-input wsite-input" type="text" name="entry.931676546" required placeholder="(123) 456-7890" />
 				</div>
 				<div id="instructions-511242345469688439" class="wsite-form-instructions" style="display:none;"></div>
 			</div>
@@ -562,7 +562,7 @@ var STYLE_PREFIX = 'wsite';
 <div><div class="wsite-form-field" style="margin:5px 0px 5px 0px;">
 				<label class="wsite-form-label" for="entry.756495096">Email address<span class="form-required">*</span></label>
 				<div class="wsite-form-input-container">
-					<input aria-required="true" id="entry.756495096" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="entry.756495096" placeholder="example@gmail.com"/>
+					<input aria-required="true" id="entry.756495096" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="entry.756495096" required placeholder="example@gmail.com"/>
 				</div>
 			</div></div>
 
@@ -609,26 +609,31 @@ Click Submit button below on completion.</div>
 			}
 			// First name
 			if (isMatch(document.getElementById("entry.344865596").value, invalidNameRegex)) {
+				console.error('Invalid first name:', document.getElementById("entry.344865596").value);
 				e.preventDefault();
 				return false;
 			}
 			// Last name
 			if (isMatch(document.getElementById("entry.449256552").value, invalidNameRegex)) {
+				console.error('Invalid last name:', document.getElementById("entry.449256552").value);
 				e.preventDefault();
 				return false;
 			}
 			// Phone Number
 			if (isMatch(document.getElementById("entry.931676546").value, invalidPhoneRegex)) {
+				console.error('Invalid phone number:", document.getElementById("entry.931676546").value);
 				e.preventDefault();
 				return false;
 			}
 			// Email Address
 			if (document.getElementById("entry.756495096").value.endsWith(".ru")) {
+				console.error('Invalid email address:', document.getElementById("entry.756495096").value;
 				e.preventDefault();
 				return false;
 			}
 			// Comment
 			if (isMatch(document.getElementById("entry.129332733").value, isRuRegex)) {
+				console.error('Invalid comment:', document.getElementById("entry.129332733").value);
 				e.preventDefault();
 				return false;
 			}
