@@ -1,11 +1,5 @@
-const headerTemplate = document.createElement('template');
+const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
-
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="files/main_style.css"
-/>
 
 <div id="header">
   <table id="header-inner">
@@ -23,18 +17,18 @@ headerTemplate.innerHTML = `
     </tr>
   </table>
 </div>
-`
+`;
 
 class Header extends HTMLElement {
-    constructor() {
-        // Always call super first in constructor
-        super();
-    }
+  constructor() {
+    // Always call super first in constructor
+    super();
+  }
 
-    connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'open' });
-        shadowRoot.appendChild(headerTemplate.content);
-    }
+  connectedCallback() {
+    const temp = document.importNode(headerTemplate.content, true);
+    this.appendChild(temp);
+  }
 }
 
-customElements.define('header-component', Header);
+customElements.define("header-component", Header);
