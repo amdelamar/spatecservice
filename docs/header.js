@@ -1,9 +1,7 @@
 const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 
-<style>
-  @import "header.css"
-</style>
+<link rel="stylesheet" href="header.css">
 
 <div id="header">
   <table id="header-inner">
