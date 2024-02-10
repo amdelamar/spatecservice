@@ -1,6 +1,12 @@
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
 
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="files/main_style.css"
+/>
+
 <div id="header">
   <table id="header-inner">
     <tr>
