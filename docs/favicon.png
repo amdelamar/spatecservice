@@ -19,7 +19,7 @@
 <meta name="norton-safeweb-site-verification" content="1urvnajmrt85ryv6bp008jtd7b4a3la7jyear-si-rosvuvc5bbr7avciiip6947cpvweanxhn10dlugosijbu0--6gc65-3mvjat9ck0vy1bq26idlrzjsc6f4404t1" />
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1501112749" />
 <link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1501112749" />
-<link rel="stylesheet" type="text/css" href="/files/main_style.css?1501156697" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="/files/main_style.css?1501156697" wsite-theme-css" />
 
 <style type='text/css'>
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
@@ -522,7 +522,7 @@ var STYLE_PREFIX = 'wsite';
 
 </div>
 
-<h2 class="wsite-content-title" style="text-align:center;"><a title="" href="/"><font size="1">Home</font></a><font size="1"> | </font><a title="" href="/service-area-contact-us.html"><font size="1">Service area | Contact Us</font></a><font size="1"> | </font><a title="" href="/testimonials.html"><font size="1">Testimonials</font></a><font size="1"> | </font><a title="" href="/blog.html"><font size="1">Blog</font></a><font size="1"> | </font><font size="1"><a title="" href="/spas--hot-tubs--swim-spas.html">Spas<font size="1"> and</font> Hot Tub<font size="1">s</font></a></font><font size="1"> | <a title="" href="/whirlpool--air-bath-tubs.html">Whirlpool Bath Tub<font size="1">s</font></a> | <a title="" href="/saunas--steam-baths.html">Saunas <font size="1">and Steam Baths</font></a></font></h2>
+<h2 class="wsite-content-title" style="text-align:center;"><a " href="/"><font size="1">Home</font></a><font size="1"> | </font><a " href="/service-area-contact-us.html"><font size="1">Service area | Contact Us</font></a><font size="1"> | </font><a " href="/testimonials.html"><font size="1">Testimonials</font></a><font size="1"> | </font><a " href="/blog.html"><font size="1">Blog</font></a><font size="1"> | </font><font size="1"><a " href="/spas--hot-tubs--swim-spas.html">Spas<font size="1"> and</font> Hot Tub<font size="1">s</font></a></font><font size="1"> | <a " href="/whirlpool--air-bath-tubs.html">Whirlpool Bath Tub<font size="1">s</font></a> | <a " href="/saunas--steam-baths.html">Saunas <font size="1">and Steam Baths</font></a></font></h2>
 </div>
 
 			</div>
