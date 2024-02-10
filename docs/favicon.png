@@ -4,7 +4,7 @@
 		<title>404</title><meta property="og:site_name" content="Spa Tec" />
 <meta property="og:title" content="404" />
 <meta property="og:description" content="Spa Tec" />
-<meta property="og:image" content="http://spatecservice.com/uploads/3/5/0/5/35055391/published/1369226295.png?1496405773" />
+<meta property="og:image" content="http://spatecservice.com/images/published/1369226295.png?1496405773" />
 <meta property="og:url" content="http://spatecservice.com/404.html" />
 
 
@@ -72,7 +72,7 @@
 
 <style type='text/css'>
 .wsite-header {
-	background-image: url(/uploads/3/5/0/5/35055391/header_images/1388502545.jpg) !important;
+	background-image: url(/images/header_images/1388502545.jpg) !important;
 	background-position: 0 0 !important;
 }
 </style>
@@ -113,7 +113,7 @@ var STYLE_PREFIX = 'wsite';
 				<td id="logo"><span class="wsite-logo">
 
 	<a href="/">
-		<img src="/uploads/3/5/0/5/35055391/published/1369226295.png?1496405773" />
+		<img src="/images/published/1369226295.png?1496405773" />
 	</a>
 
 </span></td>
