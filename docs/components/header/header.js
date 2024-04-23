@@ -10,12 +10,28 @@ headerTemplate.innerHTML = `
         <span class="wsite-logo">
           <a href="">
             <img
-              src="images/published/1369226295.png?1496405773"
+              src="images/published/spatec-logo.png"
               alt="Spa Tec"
             />
           </a>
         </span>
       </td>
+      <td>
+        <div>Factory Certified Technician</div>
+        <div>Established in 1991</div>
+        <a
+          href="tel:616-896-1321"
+          alt-text="Phone"
+        >
+          <div>Phone: 616-896-1321</div>
+        </a>
+        <a
+          href="mailto:spatec616@gmail.com"
+          alt-text="Mail"
+        >
+          <div>Email: spatec616@gmail.com</div>
+        </a>
+      </td
     </tr>
   </table>
 </div>
