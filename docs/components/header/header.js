@@ -8,7 +8,7 @@ headerTemplate.innerHTML = `
     <tr>
       <td id="logo">
         <span class="wsite-logo">
-          <a href="">
+          <a href="/index.html">
             <img
               src="images/published/spatec-logo.png"
               alt="Spa Tec"
@@ -19,18 +19,18 @@ headerTemplate.innerHTML = `
       <td>
         <div>Factory Certified Technician</div>
         <div>Established in 1991</div>
-        <a
-          href="tel:616-896-1321"
-          alt-text="Phone"
-        >
-          <div>Phone: 616-896-1321</div>
-        </a>
-        <a
-          href="mailto:spatec616@gmail.com"
-          alt-text="Mail"
-        >
-          <div>Email: spatec616@gmail.com</div>
-        </a>
+        <div>
+          <span>Phone: <a
+            href="tel:616-896-1321"
+            alt-text="Phone"
+          >616-896-1321</a></span>
+        </div>
+        <div>
+          <span>Email: <a
+            href="mailto:spatec616@gmail.com"
+            alt-text="Mail"
+          >spatec616@gmail.com</a></span>
+        </div>
       </td
     </tr>
   </table>
