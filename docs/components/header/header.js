@@ -21,12 +21,14 @@ headerTemplate.innerHTML = `
         <div>Established in 1991</div>
         <div>
           <span>Phone: <a
+            id="header-link"  
             href="tel:616-896-1321"
             alt-text="Phone"
           >616-896-1321</a></span>
         </div>
         <div>
           <span>Email: <a
+            id="header-link" 
             href="mailto:spatec616@gmail.com"
             alt-text="Mail"
           >spatec616@gmail.com</a></span>
