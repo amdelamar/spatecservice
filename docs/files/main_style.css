@@ -90,6 +90,7 @@ a:hover {
 #wrapper {
   max-width: 960px;
   margin: 0 auto;
+  overflow: hidden;
 }
 #content-wrapper {
   max-width: 960px;
@@ -320,6 +321,13 @@ div.paragraph ol li {
   list-style: decimal outside !important;
 }
 
+/* Flex */
+.flex {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
 /* Sizes for mobile */
 @media only screen and (max-width: 800px) {
   html {
@@ -328,6 +336,10 @@ div.paragraph ol li {
 
   #wrapper {
     width: 100%;
+  }
+
+  .flex {
+    flex-wrap: wrap;
   }
 }
 
@@ -338,5 +350,9 @@ div.paragraph ol li {
   
   #wrapper {
     width: 100%;
+  }
+
+  .flex {
+    flex-wrap: wrap;
   }
 }
