@@ -90,7 +90,6 @@ a:hover {
 #wrapper {
   max-width: 960px;
   margin: 0 auto;
-  overflow: hidden;
 }
 #content-wrapper {
   max-width: 960px;
@@ -132,7 +131,6 @@ a:hover {
   color: #e3e3e3;
 }
 #navigation-links {
-  margin-left: 0;
   max-width: 960px;
 }
 #navigation-links li {
@@ -194,8 +192,6 @@ a:hover {
 /* Page banner */
 .tall-header-page #banner {
   max-width: 960px;
-  height: 268px;
-  padding: 8px 0 0 0;
   margin: 0;
   background: url(theme/banner-tall-bg.jpg?1527348198) no-repeat;
 }
@@ -334,20 +330,10 @@ div.paragraph ol li {
     font-size: 2vw;
   }
 
-  #wrapper {
-    width: 100%;
+  body {
+    font-size: 16px;
   }
 
-  .flex {
-    flex-wrap: wrap;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  html {
-    font-size: 2vw;
-  }
-  
   #wrapper {
     width: 100%;
   }

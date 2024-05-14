@@ -79,346 +79,14 @@
       window._W = window._W || {};
       _W.showV2Footer = 0;
     </script>
-    <script type="text/javascript">
-      <!--
-      var IS_ARCHIVE = 1;
-      var DISABLE_NAV_MORE = 1;
-      function initFlyouts() {
-        initPublishedFlyoutMenus(
-          [
-            {
-              id: "938967323459705948",
-              title: "Home",
-              url: "index.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "264066092446005290",
-              title: "Service Area-Contact Us",
-              url: "service-area-contact-us.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "907700478957203569",
-              title: "Spas \/ Hot Tubs & Swim Spas",
-              url: "spas--hot-tubs--swim-spas.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "315735466680607106",
-              title: "Whirlpool & Air Bath Tubs",
-              url: "whirlpool--air-bath-tubs.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "296677377578186891",
-              title: "Saunas & Steam Baths",
-              url: "saunas--steam-baths.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "998850814588440526",
-              title: "Swimming Pools",
-              url: "swimming-pools.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-          ],
-          "346283530557132567",
-          "",
-          "active",
-          false,
-          {
-            "navigation\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}} class="wsite-menu-item-wrap">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required="{{.}}"\n\t\t{{\/membership_required}}\n\t\tclass="wsite-menu-item"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-            "navigation\/flyout\/list":
-              '<div class="wsite-menu-wrap" style="display:none">\n\t<ul class="wsite-menu">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n',
-            "navigation\/flyout\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}}\n\tclass="wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\tclass="wsite-menu-subitem"\n\t\t>\n\t\t<span class="wsite-menu-title">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class="wsite-menu-arrow">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-          },
-          {}
-        );
-      }
-      //-->
-    </script>
     <script src="components/header/header.js"></script>
+    <script src="components/navigation/navigation.js"></script>
   </head>
   <body class="tall-header-page wsite-theme-light wsite-page-industry-links">
     <h1 style="position: absolute; color: transparent; pointer-events: none;">Spa Tec-Industry Links</h1>
     <div id="wrapper">
       <header-component></header-component>
-      <div id="navigation">
-        <div id="navigation-links">
-          <ul class="wsite-menu-default">
-            <li id="pg938967323459705948" class="wsite-menu-item-wrap">
-              <a href="index.html" class="wsite-menu-item">Home</a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-804189960497171454"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a href="testimonials.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Testimonials</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-796487010677767273"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a href="blog.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Blog</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-346283530557132567"
-                    class="wsite-menu-subitem-wrap wsite-nav-current"
-                  >
-                    <a href="industry-links.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Industry Links</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-817911574585991591"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="policies-warranties-and-disclaimers.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Policies, Warranties and Disclaimers
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg264066092446005290" class="wsite-menu-item-wrap">
-              <a href="service-area-contact-us.html" class="wsite-menu-item">
-                Service Area-Contact Us
-              </a>
-            </li>
-            <li id="pg907700478957203569" class="wsite-menu-item-wrap">
-              <a href="spas--hot-tubs--swim-spas.html" class="wsite-menu-item">
-                Spas / Hot Tubs & Swim Spas
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-830881050441133132"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="filter-cartidge-cleaning---home-remedy.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Filter Cartidge Cleaning - Home remedy
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-603737252814758760"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="sterilizing-before-usage.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Sterilizing before Usage
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-526031208646845893"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="properly-closing-winterizing.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Properly Closing-Winterizing
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-125649211565832338"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="error-codes-digital-or-blinking-indicator-light.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Error Codes-Digital or Blinking Indicator Light
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-267247025303354793"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="winter-trouble-protect-from-freezing.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Winter Trouble? Protect from Freezing
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-981640487909406759"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="cover-cleaning-and-advice.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Cover Cleaning and Advice
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-432586525287863674"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="acrylic-surface-care-and-maintenance1.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Acrylic Surface Care and Maintenance
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg315735466680607106" class="wsite-menu-item-wrap">
-              <a href="whirlpool--air-bath-tubs.html" class="wsite-menu-item">
-                Whirlpool & Air Bath Tubs
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-695966358686378592"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="system-cleaning-home-remedy.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        System Cleaning-Home remedy
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-205018806811069825"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="acrylic-surface-care-and-maintenance.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Acrylic Surface Care and Maintenance
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg296677377578186891" class="wsite-menu-item-wrap">
-              <a href="saunas--steam-baths.html" class="wsite-menu-item">
-                Saunas & Steam Baths
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-172246404101316460"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="soft-heat-infrared-sauna-repair-and-parts.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Soft Heat Infrared Sauna Repair and Parts
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-948091090334094754"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="airwall-infrared-sauna-repair-and-parts.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        AirWall Infrared Sauna Repair and Parts
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg998850814588440526" class="wsite-menu-item-wrap">
-              <a href="swimming-pools.html" class="wsite-menu-item">
-                Swimming Pools
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-431310466114051329"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="pool-heater-trouble-shooting-and-maintenance-advice.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Pool Heater Trouble Shooting and Maintenance Advice
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-965932526801416158"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="filter-cartidge-cleaning---home-remedy1.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Filter Cartidge Cleaning - Home remedy
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div style="clear: both"></div>
+      <navigation-component></navigation-component>
       <div id="banner">
         <div class="wsite-header"></div>
       </div>
@@ -1391,41 +1059,6 @@
               </div>
 
               <div>
-                <div
-                  id="655425211737887510"
-                  align="left"
-                  style="width: 100%; overflow-y: hidden"
-                  class="wcustomhtml"
-                >
-                  <script type="text/javascript">
-                    var msg =
-                      "mouse right click disabled(or any message you want)";
-
-                    function click(e) {
-                      if (document.all) {
-                        if (event.button == 2) {
-                          alert(msg);
-                          return false;
-                        }
-                      }
-
-                      if (document.layers) {
-                        if (e.which == 3) {
-                          alert(msg);
-                          return false;
-                        }
-                      }
-                    }
-
-                    if (document.layers) {
-                      document.captureEvents(Event.MOUSEDOWN);
-                    }
-                    document.onmousedown = click;
-                  </script>
-                </div>
-              </div>
-
-              <div>
                 <div style="height: 20px; overflow: hidden; width: 100%"></div>
                 <hr class="styled-hr" style="width: 100%" />
                 <div style="height: 20px; overflow: hidden; width: 100%"></div>
@@ -1555,30 +1188,30 @@
 
               <div class="paragraph" style="text-align: center">
                 <strong>
-                  <a " href="">Home</a>
+                  <a href="">Home</a>
                   |
-                  <a " href="service-area-contact-us.html">
+                  <a href="service-area-contact-us.html">
                     Service area | Contact Us
                   </a>
                   |
-                  <a " href="testimonials.html">Testimonials</a>
+                  <a href="testimonials.html">Testimonials</a>
                   |
-                  <a " href="blog.html">Blog</a>
+                  <a href="blog.html">Blog</a>
                   |
-                  <a " href="spas--hot-tubs--swim-spas.html">
+                  <a href="spas--hot-tubs--swim-spas.html">
                     Spas and Hot Tubs
                   </a>
                   |
-                  <a " href="whirlpool--air-bath-tubs.html">
+                  <a href="whirlpool--air-bath-tubs.html">
                     Whirlpool Bath Tubs
                   </a>
                   |
-                  <a " href="saunas--steam-baths.html">Saunas</a>
-                  <a " href="saunas--steam-baths.html">
+                  <a href="saunas--steam-baths.html">Saunas</a>
+                  <a href="saunas--steam-baths.html">
                     and Steam Baths
                   </a>
                   |
-                  <a " href="swimming-pools.html">
+                  <a href="swimming-pools.html">
                     Swimming and Lap Pools
                   </a>
                 </strong>

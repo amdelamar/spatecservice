@@ -2,7 +2,7 @@
   background: #495561 url(../../files/theme/header_background.gif?1527348198) repeat-x center top;
   font-weight: normal;
   padding: 20px;
-  border-bottom: 1px solid #0c0f12;
+  border-bottom: 1px solid #a9acaf;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   color: white;
   text-shadow: 0 0 4px black;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 #header a {
@@ -23,6 +23,10 @@
 
 #logo-image img {
   width: 100%;
+}
+
+#slogan {
+  padding: 0px 10px
 }
 
 #controls {
@@ -52,22 +56,11 @@
   }
 
   #logo-image {
-    height: 200px;
-  }
-  
-  #controls {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  #header {
-    display: block;
-    padding: 0;
+    max-height: 200px;
   }
 
-  #logo-image {
-    height: 200px;
+  #slogan {
+    padding: 10px 10px;
   }
   
   #controls {
