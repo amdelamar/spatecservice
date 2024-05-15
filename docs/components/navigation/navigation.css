@@ -106,6 +106,7 @@
   text-decoration: none;
   text-align: center;
   padding: 20px;
+  text-wrap: nowrap;
 }
 
 .mobile-button:hover {
