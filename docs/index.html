@@ -88,77 +88,6 @@
       window._W = window._W || {};
       _W.showV2Footer = 0;
     </script>
-    <script type="text/javascript">
-      var IS_ARCHIVE = 1;
-      var DISABLE_NAV_MORE = 1;
-      function initFlyouts() {
-        initPublishedFlyoutMenus(
-          [
-            {
-              id: "938967323459705948",
-              title: "Home",
-              url: "index.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "264066092446005290",
-              title: "Service Area-Contact Us",
-              url: "service-area-contact-us.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "907700478957203569",
-              title: "Spas \/ Hot Tubs & Swim Spas",
-              url: "spas--hot-tubs--swim-spas.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "315735466680607106",
-              title: "Whirlpool & Air Bath Tubs",
-              url: "whirlpool--air-bath-tubs.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "296677377578186891",
-              title: "Saunas & Steam Baths",
-              url: "saunas--steam-baths.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-            {
-              id: "998850814588440526",
-              title: "Swimming Pools",
-              url: "swimming-pools.html",
-              target: "",
-              nav_menu: false,
-              nonclickable: false,
-            },
-          ],
-          "938967323459705948",
-          "",
-          "active",
-          false,
-          {
-            "navigation\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}} class="wsite-menu-item-wrap">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required="{{.}}"\n\t\t{{\/membership_required}}\n\t\tclass="wsite-menu-item"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-            "navigation\/flyout\/list":
-              '<div class="wsite-menu-wrap" style="display:none">\n\t<ul class="wsite-menu">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n',
-            "navigation\/flyout\/item":
-              '<li {{#id}}id="{{id}}"{{\/id}}\n\tclass="wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref="{{url}}"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget="{{target}}"\n\t\t{{\/target}}\n\t\tclass="wsite-menu-subitem"\n\t\t>\n\t\t<span class="wsite-menu-title">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class="wsite-menu-arrow">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n',
-          },
-          {}
-        );
-      }
-    </script>
     <meta
       name="google-site-verification"
       content="YEV_1THZvgGg8ksgk5tJBtAcV5RRvpS7nesTi1uhw6k"
@@ -170,6 +99,7 @@
     <meta name="wot-verification" content="544867deec7e98d748c3" />
     <meta name="msvalidate.01" content="0A34DC9068C1F8AE57CED00E11F372C9" />
     <script src="components/header/header.js"></script>
+    <script src="components/navigation/navigation.js"></script>
   </head>
   <body class="tall-header-page wsite-theme-light wsite-page-index">
     <h1 style="position: absolute; color: transparent; pointer-events: none">
@@ -180,267 +110,7 @@
     </h1>
     <div id="wrapper">
       <header-component></header-component>
-      <div id="navigation">
-        <div id="navigation-links">
-          <ul class="wsite-menu-default">
-            <li id="active" class="wsite-menu-item-wrap">
-              <a href="index.html" class="wsite-menu-item">Home</a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-804189960497171454"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a href="testimonials.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Testimonials</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-796487010677767273"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a href="blog.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Blog</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-346283530557132567"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a href="industry-links.html" class="wsite-menu-subitem">
-                      <span class="wsite-menu-title">Industry Links</span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-817911574585991591"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="policies-warranties-and-disclaimers.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Policies, Warranties and Disclaimers
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg264066092446005290" class="wsite-menu-item-wrap">
-              <a href="service-area-contact-us.html" class="wsite-menu-item">
-                Service Area-Contact Us
-              </a>
-            </li>
-            <li id="pg907700478957203569" class="wsite-menu-item-wrap">
-              <a href="spas--hot-tubs--swim-spas.html" class="wsite-menu-item">
-                Spas / Hot Tubs & Swim Spas
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-830881050441133132"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="filter-cartidge-cleaning---home-remedy.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Filter Cartidge Cleaning - Home remedy
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-603737252814758760"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="sterilizing-before-usage.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Sterilizing before Usage
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-526031208646845893"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="properly-closing-winterizing.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Properly Closing-Winterizing
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-125649211565832338"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="error-codes-digital-or-blinking-indicator-light.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Error Codes-Digital or Blinking Indicator Light
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-267247025303354793"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="winter-trouble-protect-from-freezing.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Winter Trouble? Protect from Freezing
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-981640487909406759"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="cover-cleaning-and-advice.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Cover Cleaning and Advice
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-432586525287863674"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="acrylic-surface-care-and-maintenance1.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Acrylic Surface Care and Maintenance
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg315735466680607106" class="wsite-menu-item-wrap">
-              <a href="whirlpool--air-bath-tubs.html" class="wsite-menu-item">
-                Whirlpool & Air Bath Tubs
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-695966358686378592"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="system-cleaning-home-remedy.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        System Cleaning-Home remedy
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-205018806811069825"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="acrylic-surface-care-and-maintenance.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Acrylic Surface Care and Maintenance
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg296677377578186891" class="wsite-menu-item-wrap">
-              <a href="saunas--steam-baths.html" class="wsite-menu-item">
-                Saunas & Steam Baths
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-172246404101316460"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="soft-heat-infrared-sauna-repair-and-parts.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Soft Heat Infrared Sauna Repair and Parts
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-948091090334094754"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="airwall-infrared-sauna-repair-and-parts.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        AirWall Infrared Sauna Repair and Parts
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li id="pg998850814588440526" class="wsite-menu-item-wrap">
-              <a href="swimming-pools.html" class="wsite-menu-item">
-                Swimming Pools
-              </a>
-              <div class="wsite-menu-wrap" style="display: none">
-                <ul class="wsite-menu">
-                  <li
-                    id="wsite-nav-431310466114051329"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="pool-heater-trouble-shooting-and-maintenance-advice.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Pool Heater Trouble Shooting and Maintenance Advice
-                      </span>
-                    </a>
-                  </li>
-                  <li
-                    id="wsite-nav-965932526801416158"
-                    class="wsite-menu-subitem-wrap"
-                  >
-                    <a
-                      href="filter-cartidge-cleaning---home-remedy1.html"
-                      class="wsite-menu-subitem"
-                    >
-                      <span class="wsite-menu-title">
-                        Filter Cartidge Cleaning - Home remedy
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div style="clear: both"></div>
+      <navigation-component></navigation-component>
       <div id="banner">
         <div class="wsite-header"></div>
       </div>
@@ -449,101 +119,53 @@
           <div id="contents">
             <div id="wsite-content" class="wsite-elements wsite-not-footer">
               <div>
-                <div class="wsite-multicol">
-                  <div
-                    class="wsite-multicol-table-wrap"
-                    style="margin: 0 -15px"
-                  >
-                    <table class="wsite-multicol-table">
-                      <tbody class="wsite-multicol-tbody">
-                        <tr class="wsite-multicol-tr">
-                          <td
-                            class="wsite-multicol-col"
-                            style="width: 76.371308016878%; padding: 0 15px"
-                          >
-                            <div>
-                              <div
-                                id="892669080868544663"
-                                align="center"
-                                style="width: 100%; overflow-y: hidden"
-                                class="wcustomhtml"
-                              >
-                                <h1>
-                                  West Michigan's Local Repairman, Service
-                                  Company and Maintenance Contractor for all
-                                  brands of Commercial and Residential Custom
-                                  Installed or Portable Spas & Hot Tubs,
-                                  Whirlpool, Jetted & Air Bath Tubs, Luxury
-                                  Shower Systems, Steam Baths, Saunas & Swim
-                                  Spas for West Michigan.
-                                </h1>
-                              </div>
-                              <div style="text-align: left">
-                                <div
-                                  style="height: 10px; overflow: hidden"
-                                ></div>
-                                <span class="wsite-social wsite-social-default">
-                                  <a
-                                    class="first-child wsite-social-item wsite-social-facebook"
-                                    href="https://facebook.com/spatec"
-                                    target="_blank"
-                                    alt-text="Facebook"
-                                  >
-                                    <span
-                                      class="wsite-social-item-inner"
-                                    ></span>
-                                  </a>
-                                  <a
-                                    class="wsite-social-item wsite-social-mail"
-                                    href="mailto:spatec616@gmail.com"
-                                    target="_blank"
-                                    alt-text="Mail"
-                                  >
-                                    <span
-                                      class="wsite-social-item-inner"
-                                    ></span>
-                                  </a>
-                                </span>
-                                <div
-                                  style="height: 10px; overflow: hidden"
-                                ></div>
-                              </div>
-                            </div>
-                          </td>
-                          <td
-                            class="wsite-multicol-col"
-                            style="width: 23.628691983122%; padding: 0 15px"
-                          >
-                            <div>
-                              <div
-                                class="wsite-image wsite-image-border-none"
-                                style="
-                                  padding-top: 10px;
-                                  padding-bottom: 10px;
-                                  margin-left: 0;
-                                  margin-right: 0;
-                                  text-align: center;
-                                "
-                              >
-                                <a
-                                  href="https://g.page/r/Cc7NC7CfMj8YEAg/review"
-                                  target="_blank"
-                                >
-                                  <img
-                                    src="images/9644908_orig.png"
-                                    alt="Picture"
-                                  />
-                                </a>
-                                <div
-                                  style="display: block; font-size: 90%"
-                                ></div>
-                              </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                <div class="flex-container">
+                  <div>
+                    <h1 style="text-align: center;">
+                      West Michigan's Local Repairman, Service
+                      Company and Maintenance Contractor for all
+                      brands of Commercial and Residential Custom
+                      Installed or Portable Spas & Hot Tubs,
+                      Whirlpool, Jetted & Air Bath Tubs, Luxury
+                      Shower Systems, Steam Baths, Saunas & Swim
+                      Spas for West Michigan.
+                    </h1>
                   </div>
+                  <div>
+                    <a
+                      href="https://g.page/r/Cc7NC7CfMj8YEAg/review"
+                      target="_blank"
+                    >
+                      <img
+                        src="images/9644908_orig.png"
+                        alt="Picture"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div style="margin-top: 10px; margin-bottom: 10px;">
+                  <span class="wsite-social wsite-social-default">
+                    <a
+                      class="first-child wsite-social-item wsite-social-facebook"
+                      href="https://facebook.com/spatec"
+                      target="_blank"
+                      alt-text="Facebook"
+                    >
+                      <span
+                        class="wsite-social-item-inner"
+                      ></span>
+                    </a>
+                    <a
+                      class="wsite-social-item wsite-social-mail"
+                      href="mailto:spatec616@gmail.com"
+                      target="_blank"
+                      alt-text="Mail"
+                    >
+                      <span
+                        class="wsite-social-item-inner"
+                      ></span>
+                    </a>
+                  </span>
                 </div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749387.6381940321!2d-85.90932593200434!3d42.803241994956785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819bf9327cd9ebb%3A0x183f329fb00bcdce!2sSpa%20Tec!5e0!3m2!1sen!2sus!4v1707588067739!5m2!1sen!2sus"
@@ -560,11 +182,10 @@
                 <hr class="styled-hr" style="width: 100%" />
                 <div style="height: 10px; overflow: hidden; width: 100%"></div>
               </div>
-              <div>
+              <div style="overflow: auto;">
                 <div class="wsite-multicol">
                   <div
                     class="wsite-multicol-table-wrap"
-                    style="margin: 0 -15px"
                   >
                     <table class="wsite-multicol-table">
                       <tbody class="wsite-multicol-tbody">
@@ -760,9 +381,7 @@
                               style="text-align: left"
                             >
                               <font color="#000000" size="2">
-                                Equipment
-                                <font size="2">U</font>
-                                pgrades:
+                                Equipment Upgrades:
                               </font>
                             </h2>
                             <div class="paragraph" style="text-align: left">
@@ -794,7 +413,7 @@
                           </td>
                           <td
                             class="wsite-multicol-col"
-                            style="width: 66.772151898734%; padding: 0 15px"
+                            style="width: 66.772151898734%; padding: 0 35px"
                           >
                             <div>
                               <div style="height: 0px; overflow: hidden"></div>
@@ -963,7 +582,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1018,7 +636,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1155,7 +772,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1319,7 +935,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1523,7 +1138,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1725,7 +1339,6 @@
                               <div class="wsite-multicol">
                                 <div
                                   class="wsite-multicol-table-wrap"
-                                  style="margin: 0 -15px"
                                 >
                                   <table class="wsite-multicol-table">
                                     <tbody class="wsite-multicol-tbody">
@@ -1972,15 +1585,12 @@
                 <div style="height: 0px; overflow: hidden; width: 100%"></div>
               </div>
               <h2 class="wsite-content-title" style="text-align: left">
-                <font color="#000000">Useful Owner Information</font>
-                :
-                <br />
+                <font color="#000000">Useful Owner Information:</font>
               </h2>
-              <div>
+              <div style="overflow: auto;">
                 <div class="wsite-multicol">
                   <div
                     class="wsite-multicol-table-wrap"
-                    style="margin: 0 -15px"
                   >
                     <table class="wsite-multicol-table">
                       <tbody class="wsite-multicol-tbody">
@@ -1994,9 +1604,7 @@
                               style="text-align: left"
                             >
                               <font color="#000000" size="2">
-                                Spas
-                                <font size="2">,</font>
-                                Hot Tubs &amp; Swim Spas:
+                                Spas, Hot Tubs & Swim Spas:
                               </font>
                               <br />
                             </h2>
@@ -2123,40 +1731,27 @@
               <h2 class="wsite-content-title" style="text-align: center">
                 <font color="#000000">
                   <em>
-                    Place your trust in over 34 years of unaccompanied
-                    experience in the Swimming Pool,
+                    Place your trust in over 34 years of experience in the Swimming Pool,
                   </em>
                 </font>
                 <br />
                 <font color="#000000">
                   <em>Spa, Sauna and Bath Industries</em>
                 </font>
-                <em>...</em>
-                <br />
               </h2>
               <div>
                 <div style="height: 10px; overflow: hidden; width: 100%"></div>
                 <hr class="styled-hr" style="width: 100%" />
                 <div style="height: 10px; overflow: hidden; width: 100%"></div>
               </div>
-              <div>
+              <div style="overflow: auto;">
                 <div class="wsite-multicol">
                   <div
                     class="wsite-multicol-table-wrap"
-                    style="margin: 0 -15px"
                   >
                     <table class="wsite-multicol-table">
                       <tbody class="wsite-multicol-tbody">
                         <tr class="wsite-multicol-tr">
-                          <td
-                            class="wsite-multicol-col"
-                            style="width: 2.1098109005031%; padding: 0 15px"
-                          >
-                            <div
-                              class="wsite-spacer"
-                              style="height: 50px"
-                            ></div>
-                          </td>
                           <td
                             class="wsite-multicol-col"
                             style="width: 55.471107156382%; padding: 0 15px"
@@ -2330,11 +1925,10 @@
                 <hr class="styled-hr" style="width: 100%" />
                 <div style="height: 10px; overflow: hidden; width: 100%"></div>
               </div>
-              <div>
+              <div style="overflow: auto;">
                 <div class="wsite-multicol">
                   <div
                     class="wsite-multicol-table-wrap"
-                    style="margin: 0 -15px"
                   >
                     <table class="wsite-multicol-table">
                       <tbody class="wsite-multicol-tbody">
@@ -2459,7 +2053,7 @@
                   class="wcustomhtml"
                 >
                   <h6 align="center">
-                    Last update: Summer, 2018
+                    Last updated: May 2024
                     <br />
                     All logos and trademarks are property of their respective
                     owners
