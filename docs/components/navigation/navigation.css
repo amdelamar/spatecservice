@@ -28,7 +28,7 @@
   flex-grow: 1;
 }
 
-.navigation-list-item:not(:last-child) {
+#navigation:not(.mobile-menu-open) .navigation-list-item:not(:last-child) {
   border-right: 1px solid #a9acaf;
 }
 
