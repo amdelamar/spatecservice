@@ -9,6 +9,10 @@
   padding: 10px;
 }
 
+#header img {
+  max-width: 100%;
+}
+
 #header div {
   font-family: garamond, "times new roman", serif;
   color: #d9dbde;
