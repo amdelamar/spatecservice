@@ -7,9 +7,9 @@ class Navigation extends HTMLElement {
   }
 
   async connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: "open" });
+    const shadowRoot = this.attachShadow({mode: "open"});
 
-    const content = await fetch('components/navigation/navigation.html');
+    const content = await fetch("components/navigation/navigation.html");
     const text = await content.text();
 
     navigationTemplate.innerHTML = text;
@@ -19,3 +19,12 @@ class Navigation extends HTMLElement {
 }
 
 customElements.define("navigation-component", Navigation);
+
+function toggleMobileMenu() {
+  const navigation = document.getElementsByTagName("navigation-component")[0].shadowRoot.getElementById("navigation");
+  navigation.classList.toggle("mobile-menu-open");
+}
+
+function toggleMobileSubMenu(element) {
+  element.classList.toggle("mobile-submenu-open");
+}

@@ -7,9 +7,9 @@ class Header extends HTMLElement {
   }
 
   async connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: "open" });
+    const shadowRoot = this.attachShadow({mode: "open"});
 
-    const content = await fetch('components/header/header.html');
+    const content = await fetch("components/header/header.html");
     const text = await content.text();
 
     headerTemplate.innerHTML = text;
